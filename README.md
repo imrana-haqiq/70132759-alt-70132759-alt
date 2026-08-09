@@ -40,6 +40,6 @@ Full-stack marketplace where clients post projects and freelancers submit bids �
 
 ## Let's Connect
 
-* 💼 **LinkedIn:** [linkedin.com/in/imranahaqiq](https://www.linkedin.com/in/imranahaqiq/)
+* 💼 **LinkedIn:** [linkedin.com/in/imranahaqiq](https://www.linkedin.com/in/imrana-haqiq/)
 * 📧 **Email:** imrana.haqiq7@gmail.com
 * 🌐 **Portfolio:** [imrana-haqiq.github.io/imrana-haqiq](https://imrana-haqiq.github.io/imrana-haqiq/)
