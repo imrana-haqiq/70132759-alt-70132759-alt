@@ -95,20 +95,7 @@ footer{padding:18px 0;text-align:center;border-top:1px solid var(--border);color
  .hero-text{font-size:13px}.actions{flex-direction:column}.btn{width:100%}
  .header{padding:39px 0 24px}section{padding:29px 0}.about-grid,.projects,.skill-grid{grid-template-columns:1fr}
  .project{min-height:0}.contact{padding:30px 0}
- .resume-section{padding:22px 0 28px}.resume-toolbar{justify-content:stretch}
- .resume-toolbar .btn{width:100%}.resume-viewer{height:calc(100vh - 190px);min-height:500px}
 }
-
-.resume-section{padding:28px 0 36px}
-.resume-toolbar{display:flex;justify-content:flex-end;margin-bottom:12px}
-.resume-viewer{
-  width:100%;height:min(760px,calc(100vh - 205px));
-  min-height:620px;background:#fff;border:1px solid var(--border2);
-  border-radius:12px;overflow:hidden
-}
-.resume-viewer iframe{width:100%;height:100%;border:0;display:block}
-.resume-fallback{display:none;text-align:center;color:#222;padding:20px}
-.resume-fallback a{color:#4f46e5;font-weight:700}
 </style>
 </head>
 <body>
@@ -122,7 +109,6 @@ footer{padding:18px 0;text-align:center;border-top:1px solid var(--border);color
    <button data-page="about" onclick="showPage('about')">About</button>
    <button data-page="projects" onclick="showPage('projects')">Projects</button>
    <button data-page="skills" onclick="showPage('skills')">Skills</button>
-   <button data-page="resume" onclick="showPage('resume')">Resume</button>
    <button data-page="contact" onclick="showPage('contact')">Contact</button>
   </div>
  </div>
@@ -132,13 +118,13 @@ footer{padding:18px 0;text-align:center;border-top:1px solid var(--border);color
  <div class="hero">
   <canvas id="network"></canvas><div class="glow"></div>
   <div class="wrap hero-content">
-   <div class="availability"><i></i>Available for Full-Stack &amp; Software Roles</div>
+   <div class="availability"><i></i>Open to Full-Stack, Frontend &amp; Backend Roles</div>
    <h1>Full-Stack Web Developer building <span class="gradient">scalable end-to-end systems.</span></h1>
    <p class="hero-text">I build production web applications end-to-end — architecting clean REST APIs, robust backend structures, normalized database schemas, and responsive user interfaces.</p>
    <div class="actions">
     <button class="btn primary" onclick="showPage('projects')">View Projects →</button>
     <a class="btn secondary" href="https://github.com/imrana-haqiq" target="_blank" rel="noopener">GitHub Profile</a>
-    <button class="btn secondary" onclick="showPage('resume')">View Resume</button>
+    <a class="btn secondary" href="Imrana_Haqiq_Resume.pdf" target="_blank" rel="noopener">View Resume</a>
    </div>
    <div class="hero-stack">REACT · NODE.JS · EXPRESS · SQL · PYTHON · TENSORFLOW · CI/CD</div>
   </div>
@@ -154,18 +140,14 @@ footer{padding:18px 0;text-align:center;border-top:1px solid var(--border);color
  <section><div class="wrap about-grid">
   <div class="copy">
    <p><strong>I enjoy owning projects end to end.</strong> My experience covers requirements gathering, technical specifications, backend development, database design, frontend development, and live CI/CD deployment.</p>
-   <p>As a freelance web developer, I have built and shipped <strong>three full-stack web applications</strong> using React, Node.js, Express, and SQL for independent clients.</p>
-   <p>I designed and shipped a production-ready <strong>Freelance Job Board</strong> with 8+ RESTful API endpoints, full CRUD across users, projects, bids, and reviews, a normalized SQL schema, and JWT authentication.</p>
-   <p>My flagship project, <strong>Unisphere</strong>, is a live campus social platform with email/password and Google OAuth authentication, personalized feeds, society/event discovery, a jobs board, 10+ RESTful endpoints, and 5 database tables.</p>
+   <p>As a freelance web developer, I have built and shipped <strong>three production web applications</strong> using React, Node.js, Express, and SQL for independent clients — you can see the details of each in the Projects section.</p>
    <p>I completed my <strong>BS in Computer Science at the University of Lahore</strong> in July 2026.</p>
   </div>
   <div class="card">
    <div class="fact"><span class="label">Role</span><span class="value">Full-Stack Web Developer</span></div>
-   <div class="fact"><span class="label">Location</span><span class="value">Kamonki, Gujranwala</span></div>
    <div class="fact"><span class="label">Education</span><span class="value">BS Computer Science</span></div>
    <div class="fact"><span class="label">Applications</span><span class="value">3 Full-Stack Apps</span></div>
-   <div class="fact"><span class="label">Unisphere</span><span class="value">10+ REST APIs / 5 Tables</span></div>
-   <div class="fact"><span class="label">ML Result</span><span class="value">90%+ Test Accuracy</span></div>
+   <div class="fact"><span class="label">Status</span><span class="value" style="color:var(--green)">Open to work</span></div>
   </div>
  </div></section>
  <footer>Designed &amp; Built by Imrana Haqiq</footer>
@@ -231,32 +213,9 @@ footer{padding:18px 0;text-align:center;border-top:1px solid var(--border);color
  <footer>Designed &amp; Built by Imrana Haqiq</footer>
 </main>
 
-
-<main id="resume" class="page">
- <div class="header"><div class="wrap">
-  <div class="kicker">04 / RESUME</div><h2>Resume</h2>
-  <p>View my complete professional resume below.</p>
- </div></div>
- <section class="resume-section"><div class="wrap">
-  <div class="resume-toolbar">
-   <a class="btn primary" href="Imrana_Haqiq_Resume.pdf" target="_blank" rel="noopener">Open Resume PDF ↗</a>
-  </div>
-  <div class="resume-viewer">
-   <iframe src="Imrana_Haqiq_Resume.pdf#toolbar=1&navpanes=0&scrollbar=1"
-           title="Imrana Haqiq Resume"
-           loading="lazy"></iframe>
-   <div class="resume-fallback">
-    <p>If the PDF preview does not appear in your browser, open it directly:</p>
-    <a href="Imrana_Haqiq_Resume.pdf" target="_blank" rel="noopener">Open Resume PDF →</a>
-   </div>
-  </div>
- </div></section>
- <footer>Designed &amp; Built by Imrana Haqiq</footer>
-</main>
-
 <main id="contact" class="page">
  <div class="header"><div class="wrap">
-  <div class="kicker">05 / CONTACT</div><h2>Let's connect.</h2>
+  <div class="kicker">04 / CONTACT</div><h2>Let's connect.</h2>
   <p>Open to full-stack and software engineering opportunities.</p>
  </div></div>
  <section class="contact"><div class="wrap">
@@ -269,7 +228,7 @@ footer{padding:18px 0;text-align:center;border-top:1px solid var(--border);color
     <a class="btn secondary" href="https://github.com/imrana-haqiq" target="_blank" rel="noopener">GitHub</a>
     <a class="btn secondary" href="Imrana_Haqiq_Resume.pdf" target="_blank" rel="noopener">View Resume</a>
    </div>
-   <div class="email"><a href="mailto:imrana.haqiq7@gmail.com">imrana.haqiq7@gmail.com</a> · +92 317 6830063</div>
+   <div class="email"><a href="mailto:imrana.haqiq7@gmail.com">imrana.haqiq7@gmail.com</a></div>
   </div>
  </div></section>
  <footer>imrana.haqiq7@gmail.com · Designed &amp; Built by Imrana Haqiq</footer>
