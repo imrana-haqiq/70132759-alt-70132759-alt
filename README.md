@@ -28,14 +28,13 @@ Full-stack marketplace where clients post projects and freelancers submit bids �
 
 ---
 
-## Tech Stack
+## Tech stack
 
-* **Languages:** JavaScript (ES6+), Python, C++
-* **Frontend:** React, HTML5, CSS3, Tailwind CSS
-* **Backend:** Node.js, Express
-* **Database:** SQL, PostgreSQL, MongoDB
-* **ML/AI:** TensorFlow/Keras, CNNs, OpenCV
-* **Tools:** Git, GitHub, VS Code, Vercel, Render
+* **Languages:** JavaScript (ES6+) · TypeScript · Python · Java · C++ · SQL · HTML5 · CSS3
+* **Web:** React 19 · Next.js · Node.js · Express · Vite · Tailwind CSS · REST APIs · JWT/Google OAuth
+* **AI/ML:** TensorFlow/Keras · CNN · EMNIST/MNIST
+* **Databases:** SQL · MongoDB · Firebase
+* **Tools:** Git · GitHub · Vercel · Linux CLI · CI/CD · Postman · Figma
 
 ---
 
