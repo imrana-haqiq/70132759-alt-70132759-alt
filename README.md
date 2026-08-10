@@ -1,6 +1,6 @@
 # Hi, I'm Imrana Haqiq 👋
 
-🌐 **Live Portfolio:** [https://imrana-haqiq.github.io/imrana-haqiq/](https://imrana-haqiq.github.io/imrana-haqiq/)
+🌐 **Live Portfolio:** [https://imrana-haqiq.github.io/imrana-haqiq/](https://imrana-haqiq.github.io/imrana-haqiq/#home)
 
 Full-stack developer who likes owning a project end to end — from the first requirements call to a live production deploy.
 
